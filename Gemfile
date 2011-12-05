@@ -5,7 +5,7 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-#gem 'sqlite3'
+gem 'sqlite3'
 gem 'pg'
 
 
@@ -17,8 +17,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'sass-rails',   '~> 3.1.4'
+gem "meta_search",    '>= 1.1.0.pre'
 gem 'jquery-rails'
-
+gem 'spork'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -34,13 +36,16 @@ gem 'jquery-rails'
 
 gem "haml"
 gem "haml-rails"
+gem 'dynamic_form'
 
 group :tet, :development do
 	gem 'rspec-rails', '~> 2.5'
 end
 
 group :test do
-	gem 'cucumber-rails','1.0.6'
+	gem 'cucumber-rails','1.0.6',require:false
 	gem 'capybara'
 	gem 'database_cleaner'
+	gem 'launchy'
+	gem 'factory_girl'
 end
