@@ -20,7 +20,7 @@ gem 'thin'
 gem 'sass-rails',   '~> 3.1.4'
 gem "meta_search",    '>= 1.1.0.pre'
 gem 'jquery-rails'
-gem 'spork'
+gem 'spork','>= 0.9.0.rc7'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -38,7 +38,7 @@ gem "haml"
 gem "haml-rails"
 gem 'dynamic_form'
 
-group :tet, :development do
+group :test, :development do
 	gem 'rspec-rails', '~> 2.5'
 end
 
@@ -48,4 +48,7 @@ group :test do
 	gem 'database_cleaner'
 	gem 'launchy'
 	gem 'factory_girl'
+  gem 'email_spec'
 end
+
+gem 'devise', '~> 1.4.3'
