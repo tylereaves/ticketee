@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c6db57c-a5ed-4995-a461-663804243154" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/registrations_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/ability.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factories/ticket_factory.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ticketee.iml" afterPath="$PROJECT_DIR$/.idea/ticketee.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/projects_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tickets_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/project.rb" afterPath="$PROJECT_DIR$/app/models/project.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/base/index.html.haml" afterPath="$PROJECT_DIR$/app/views/admin/base/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/projects/_form.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/creating_tickets.feature" afterPath="$PROJECT_DIR$/features/creating_tickets.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/deleting_tickets.feature" afterPath="$PROJECT_DIR$/features/deleting_tickets.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/editing_tickets.feature" afterPath="$PROJECT_DIR$/features/editing_tickets.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/hidden_links.feature" afterPath="$PROJECT_DIR$/features/hidden_links.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/viewing_projects.feature" afterPath="$PROJECT_DIR$/features/viewing_projects.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/viewing_tickets.feature" afterPath="$PROJECT_DIR$/features/viewing_tickets.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/openafter.rb" afterPath="$PROJECT_DIR$/features/support/openafter.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb" />
     </list>
     <ignored path="ticketee.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,91 +38,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="projects_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
+      <file leaf-file-name="tickets_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="5" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0">
+            <state line="70" column="48" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.80743694">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hidden_links.feature" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/hidden_links.feature">
+      <file leaf-file-name="edit.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/projects/edit.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="193" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0">
+            <state line="1" column="8" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registrations_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/registrations_controller.rb">
+      <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/projects/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+            <state line="7" column="168" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="ability.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/ability.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
+            <state line="5" column="10" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <file leaf-file-name="editing_tickets.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/editing_tickets.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="6" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+            <state line="11" column="74" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="confirmation.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/confirmation.html.haml">
+      <file leaf-file-name="tickets_controller_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
+            <state line="41" column="84" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signing_up.feature" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/signing_up.feature">
+      <file leaf-file-name="openafter.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/openafter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="180" selection-start="421" selection-end="421" vertical-scroll-proportion="0.23404256">
+            <state line="4" column="200" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewing_tickets.feature" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/viewing_tickets.feature">
+      <file leaf-file-name="creating_tickets.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/creating_tickets.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="110" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0">
+            <state line="29" column="30" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewing_projects.feature" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/viewing_projects.feature">
+      <file leaf-file-name="link_steps.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/link_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="45" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/project.rb">
+      <file leaf-file-name="permission_steps.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/permission_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="2" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+            <state line="3" column="109" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,22 +142,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/admin/users_controller.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" />
-        <option value="$PROJECT_DIR$/app/models/permission.rb" />
-        <option value="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/features/deleting_tickets.feature" />
-        <option value="$PROJECT_DIR$/features/editing_tickets.feature" />
-        <option value="$PROJECT_DIR$/features/creating_tickets.feature" />
-        <option value="$PROJECT_DIR$/features/viewing_tickets.feature" />
-        <option value="$PROJECT_DIR$/app/views/admin/base/index.html.haml" />
-        <option value="$PROJECT_DIR$/features/viewing_projects.feature" />
-        <option value="$PROJECT_DIR$/app/models/project.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
-        <option value="$PROJECT_DIR$/features/hidden_links.feature" />
         <option value="$PROJECT_DIR$/app/controllers/registrations_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/users/confirmation.html.haml" />
+        <option value="$PROJECT_DIR$/factories/ticket_factory.rb" />
+        <option value="$PROJECT_DIR$/features/creating_tickets.feature" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/models/ability.rb" />
+        <option value="$PROJECT_DIR$/features/support/openafter.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" />
+        <option value="$PROJECT_DIR$/app/models/project.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/tc2.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/features/editing_tickets.feature" />
+        <option value="$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/projects/_form.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
       </list>
     </option>
   </component>
@@ -171,7 +171,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="57" />
     <option name="y" value="22" />
-    <option name="width" value="1869" />
+    <option name="width" value="1863" />
     <option name="height" value="1178" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -208,408 +208,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="ticketee">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="ticketee">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="ticketee">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="support" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="step_definitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="controllers">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="factories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="environments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tickets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ticketee">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="controllers">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="admin">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -654,6 +318,24 @@
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.MinorFolderNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.FolderSubFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ticketee" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ticketee" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.MinorFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="step_definitions" />
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.FolderSubFolderNode" />
             </PATH_ELEMENT>
@@ -688,24 +370,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.FolderSubFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.UnclassifiedViewsFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.UnclassifiedViewsSubFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -760,8 +424,12 @@
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ControllersFolderNode" />
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ModelsFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ticket" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.ActiveRecordModelClassNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -776,10 +444,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ControllersFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectsController" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.ControllerClassNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -886,74 +550,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ApplicationHelper" />
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.HelperNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ticketee">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ticketee">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ticketee">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="controllers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="admin">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ticketee">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="controllers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1087,7 +683,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
       <method />
@@ -1400,24 +996,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="22" width="1869" height="1178" extended-state="0" />
-    <editor active="false" />
+    <frame x="57" y="22" width="1863" height="1178" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14991763" sideWeight="0.73961216" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15371901" sideWeight="0.74053556" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2603878" sideWeight="0.99876237" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25946444" sideWeight="0.99876237" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1456,6 +1052,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="Added admin user creation" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
@@ -1476,114 +1073,674 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb">
+    <entry file="file://$PROJECT_DIR$/factories/ticket_factory.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
+        <state line="5" column="3" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="23" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="66" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/project.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="204" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="114" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="uml://Ruby/Project">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Ruby</ID>
+          <OriginalElement>Project</OriginalElement>
+          <nodes>
+            <node x="3762.706180968564" y="400.0">ActiveRecord::AttributeMethods</node>
+            <node x="0.0" y="775.0">FactoryGirl::Syntax::Blueprint::ActiveRecord::ClassMethods</node>
+            <node x="7119.206180968564" y="240.0">ActiveRecord::NamedScope</node>
+            <node x="893.0" y="775.0">FactoryGirl::Syntax::Make::ActiveRecord::ClassMethods</node>
+            <node x="3015.1206386292865" y="240.0">ActiveModel::SecurePassword</node>
+            <node x="1458.1206386292865" y="320.0">ActiveModel::Serializers::Xml</node>
+            <node x="4287.706180968564" y="700.0">Project</node>
+            <node x="7344.206180968564" y="240.0">ActiveRecord::Associations</node>
+            <node x="3682.370638629286" y="320.0">ActiveSupport::Autoload</node>
+            <node x="518.8895143018972" y="240.0">ActiveSupport::Callbacks</node>
+            <node x="5853.7667728688775" y="400.0">ActiveModel::Conversion</node>
+            <node x="6389.2667728688775" y="400.0">ActiveRecord::Persistence</node>
+            <node x="1901.1206386292865" y="240.0">ActiveRecord::AttributeMethods::Query</node>
+            <node x="5268.706180968564" y="400.0">ActiveRecord::QueryCache::ClassMethods</node>
+            <node x="1431.8917728688775" y="400.0">ActiveRecord::Serialization</node>
+            <node x="737.1206386292865" y="320.0">ActiveModel::Callbacks</node>
+            <node x="329.1084395355442" y="0.0">ActiveModel::Naming</node>
+            <node x="1216.1206386292865" y="320.0">ActiveModel::Serializers::JSON</node>
+            <node x="3708.120638629286" y="240.0">ActiveModel::AttributeMethods</node>
+            <node x="3512.370638629286" y="320.0">ActiveModel::Dirty</node>
+            <node x="5470.206180968564" y="240.0">ActiveRecord::Aggregations</node>
+            <node x="2747.1206386292865" y="240.0">ActiveRecord::Locking::Optimistic</node>
+            <node x="3408.120638629286" y="400.0">ActiveRecord::AttributeMethods::Dirty</node>
+            <node x="526.8584395355442" y="400.0">ActiveRecord::Validations</node>
+            <node x="2451.1206386292865" y="240.0">ActiveModel::MassAssignmentSecurity</node>
+            <node x="3135.1206386292865" y="400.0">ActiveRecord::Locking::Pessimistic</node>
+            <node x="6760.206180968564" y="240.0">ActiveRecord::AttributeMethods::BeforeTypeCast</node>
+            <node x="1388.7061809685638" y="240.0">ActiveModel::Serialization</node>
+            <node x="1694.1206386292865" y="240.0">ActiveRecord::Reflection</node>
+            <node x="4487.956180968564" y="400.0">ActiveSupport::Benchmarkable</node>
+            <node x="1716.0" y="775.0">ActiveModel::Validations::HelperMethods</node>
+            <node x="2200.1206386292865" y="240.0">ActiveRecord::NestedAttributes</node>
+            <node x="104.88951430189718" y="240.0">ActiveModel::Observing</node>
+            <node x="3262.0167728688775" y="0.0">ActiveSupport::Concern</node>
+            <node x="4234.706180968564" y="400.0">OrmAdapter::ToAdapter</node>
+            <node x="447.0" y="775.0">FactoryGirl::Syntax::Generate::ActiveRecord::ClassMethods</node>
+            <node x="4016.706180968564" y="400.0">ActiveRecord::IdentityMap</node>
+            <node x="1317.0" y="775.0">MetaSearch::Searches::ActiveRecord::ClassMethods</node>
+            <node x="937.1206386292865" y="320.0">ActiveModel::Validations::Callbacks</node>
+            <node x="6254.206180968564" y="240.0">ActiveRecord::Timestamp</node>
+            <node x="5698.206180968564" y="240.0">ActiveRecord::Transactions</node>
+            <node x="6468.206180968564" y="240.0">ActiveRecord::AttributeMethods::Read</node>
+            <node x="4783.206180968564" y="320.0">ActiveRecord::AutosaveAssociation::AssociationBuilderExtension</node>
+            <node x="4240.706180968564" y="240.0">ActiveRecord::AttributeMethods::TimeZoneConversion</node>
+            <node x="30.858439535543766" y="0.0">ActiveSupport::DescendantsTracker</node>
+            <node x="5923.206180968564" y="240.0">ActiveRecord::AttributeMethods::PrimaryKey</node>
+            <node x="4635.706180968564" y="240.0">ActiveRecord::AttributeMethods::Write</node>
+            <node x="308.8895143018972" y="240.0">ActiveModel::Translation</node>
+            <node x="4250.206180968564" y="620.0">ActiveRecord::Base</node>
+            <node x="4992.706180968564" y="400.0">ActiveRecord::AutosaveAssociation</node>
+            <node x="7457.206180968564" y="400.0">ActiveRecord::CounterCache</node>
+            <node x="476.8584395355442" y="320.0">ActiveModel::Validations</node>
+            <node x="950.8917728688775" y="400.0">ActiveRecord::Callbacks</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ActiveModel::Validations" target="ActiveModel::Translation">
+              <point x="-63.0" y="-15.0" />
+              <point x="508.3584395355442" y="300.0" />
+              <point x="403.8895143018972" y="300.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveModel::SecurePassword">
+              <point x="-23.030303030303003" y="-15.0" />
+              <point x="4303.175877938261" y="490.0" />
+              <point x="3124.6206386292865" y="490.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::AttributeMethods::Dirty" target="ActiveModel::Dirty">
+              <point x="68.25" y="-15.0" />
+              <point x="3612.870638629286" y="375.0" />
+              <point x="3587.370638629286" y="375.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::AttributeMethods" target="ActiveSupport::Concern">
+              <point x="78.0" y="-15.0" />
+              <point x="3957.706180968564" y="375.0" />
+              <point x="4025.5646205041085" y="375.0" />
+              <point x="4025.5646205041085" y="190.0" />
+              <point x="3374.250106202211" y="190.0" />
+              <point x="21.233333333333576" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::Validations::Callbacks" target="ActiveSupport::Concern">
+              <point x="64.5" y="-15.0" />
+              <point x="1130.6206386292865" y="120.0" />
+              <point x="3289.3167728688777" y="120.0" />
+              <point x="-63.69999999999982" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::Serializers::JSON" target="ActiveModel::Serialization">
+              <point x="74.0" y="-15.0" />
+              <point x="1401.1206386292865" y="300.0" />
+              <point x="1437.7061809685638" y="300.0" />
+              <point x="-49.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Validations" target="ActiveSupport::Concern">
+              <point x="48.5" y="-15.0" />
+              <point x="672.3584395355442" y="375.0" />
+              <point x="726.6206386292865" y="375.0" />
+              <point x="726.6206386292865" y="110.0" />
+              <point x="3283.250106202211" y="110.0" />
+              <point x="-69.76666666666642" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::Serialization">
+              <point x="-50.666666666666515" y="-15.0" />
+              <point x="4275.539514301898" y="550.0" />
+              <point x="1532.3917728688775" y="550.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::Serializers::Xml" target="ActiveSupport::Concern">
+              <point x="53.75" y="-15.0" />
+              <point x="1619.3706386292865" y="300.0" />
+              <point x="1595.3706386292865" y="300.0" />
+              <point x="1595.3706386292865" y="150.0" />
+              <point x="3307.5167728688775" y="150.0" />
+              <point x="-45.5" y="15.0" />
+            </edge>
+            <edge source="Project" target="ActiveRecord::Base">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::Callbacks">
+              <point x="-55.27272727272748" y="-15.0" />
+              <point x="4270.933453695837" y="560.0" />
+              <point x="1043.3917728688775" y="560.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::AttributeMethods::Dirty" target="ActiveSupport::Concern">
+              <point x="-68.25" y="-15.0" />
+              <point x="3476.370638629286" y="375.0" />
+              <point x="3501.870638629286" y="375.0" />
+              <point x="3501.870638629286" y="220.0" />
+              <point x="3356.0501062022104" y="220.0" />
+              <point x="3.0333333333328483" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveModel::MassAssignmentSecurity">
+              <point x="-32.24242424242448" y="-15.0" />
+              <point x="4293.96375672614" y="510.0" />
+              <point x="2589.1206386292865" y="510.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::AutosaveAssociation" target="ActiveRecord::AutosaveAssociation::AssociationBuilderExtension">
+              <point x="-64.0" y="-15.0" />
+              <point x="5056.706180968564" y="375.0" />
+              <point x="5004.706180968564" y="375.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::Persistence">
+              <point x="50.666666666666515" y="-15.0" />
+              <point x="4376.872847635231" y="550.0" />
+              <point x="6486.7667728688775" y="550.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::Reflection">
+              <point x="-46.060606060606005" y="-15.0" />
+              <point x="4280.145574907958" y="540.0" />
+              <point x="1787.6206386292865" y="540.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::NamedScope">
+              <point x="64.4848484848485" y="-15.0" />
+              <point x="4390.691029453413" y="580.0" />
+              <point x="7221.706180968564" y="580.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::Validations::Callbacks" target="ActiveSupport::Callbacks">
+              <point x="-64.5" y="-15.0" />
+              <point x="1001.6206386292865" y="290.0" />
+              <point x="662.1395143018972" y="290.0" />
+              <point x="47.75" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::Dirty" target="ActiveModel::AttributeMethods">
+              <point x="37.5" y="-15.0" />
+              <point x="3624.870638629286" y="300.0" />
+              <point x="3765.370638629286" y="300.0" />
+              <point x="-57.25" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::Serializers::JSON" target="ActiveModel::Naming">
+              <point x="-74.0" y="-15.0" />
+              <point x="1253.1206386292865" y="300.0" />
+              <point x="1273.6206386292865" y="300.0" />
+              <point x="1273.6206386292865" y="50.0" />
+              <point x="469.1084395355442" y="50.0" />
+              <point x="56.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Locking::Optimistic" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="2871.1206386292865" y="210.0" />
+              <point x="3343.916772868877" y="210.0" />
+              <point x="-9.100000000000364" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Aggregations" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="5574.206180968564" y="150.0" />
+              <point x="3398.5167728688775" y="150.0" />
+              <point x="45.5" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::AttributeMethods::Read">
+              <point x="55.27272727272748" y="-15.0" />
+              <point x="4381.478908241292" y="560.0" />
+              <point x="6604.206180968564" y="560.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::AttributeMethods">
+              <point x="-9.21212121212102" y="-15.0" />
+              <point x="4316.994059756443" y="460.0" />
+              <point x="3879.706180968564" y="460.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveModel::Observing">
+              <point x="-69.09090909090901" y="-15.0" />
+              <point x="4257.115271877655" y="590.0" />
+              <point x="196.38951430189718" y="590.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::NamedScope" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="7221.706180968564" y="90.0" />
+              <point x="3434.916772868877" y="90.0" />
+              <point x="81.89999999999964" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::AttributeMethods::Write">
+              <point x="13.818181818181984" y="-15.0" />
+              <point x="4340.024362786746" y="470.0" />
+              <point x="4772.706180968564" y="470.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::Serializers::JSON" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="1327.1206386292865" y="300.0" />
+              <point x="1329.8917728688775" y="300.0" />
+              <point x="1329.8917728688775" y="140.0" />
+              <point x="3301.450106202211" y="140.0" />
+              <point x="-51.566666666666606" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::AttributeMethods::TimeZoneConversion" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="4428.206180968564" y="180.0" />
+              <point x="3380.3167728688777" y="180.0" />
+              <point x="27.300000000000182" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::IdentityMap">
+              <point x="-4.60606060606051" y="-15.0" />
+              <point x="4321.600120362504" y="450.0" />
+              <point x="4115.706180968564" y="450.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::AttributeMethods::Query">
+              <point x="-41.454545454545496" y="-15.0" />
+              <point x="4284.751635514019" y="530.0" />
+              <point x="2040.6206386292865" y="530.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::AttributeMethods" target="ActiveSupport::Autoload">
+              <point x="-78.0" y="-15.0" />
+              <point x="3801.706180968564" y="375.0" />
+              <point x="3775.870638629286" y="375.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Serialization" target="ActiveModel::Serializers::JSON">
+              <point x="-67.0" y="-15.0" />
+              <point x="1465.3917728688775" y="375.0" />
+              <point x="1327.1206386292865" y="375.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::AttributeMethods::Dirty">
+              <point x="-13.818181818181984" y="-15.0" />
+              <point x="4312.387999150382" y="470.0" />
+              <point x="3544.620638629286" y="470.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveModel::Conversion">
+              <point x="36.848484848484986" y="-15.0" />
+              <point x="4363.054665817049" y="520.0" />
+              <point x="5948.7667728688775" y="520.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::Locking::Optimistic">
+              <point x="-27.636363636363512" y="-15.0" />
+              <point x="4298.569817332201" y="500.0" />
+              <point x="2871.1206386292865" y="500.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Serialization" target="ActiveSupport::Concern">
+              <point x="67.0" y="-15.0" />
+              <point x="1599.3917728688775" y="375.0" />
+              <point x="1683.6206386292865" y="375.0" />
+              <point x="1683.6206386292865" y="160.0" />
+              <point x="3313.583439535544" y="160.0" />
+              <point x="-39.433333333333394" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::AttributeMethods::BeforeTypeCast">
+              <point x="59.87878787878799" y="-15.0" />
+              <point x="4386.084968847352" y="570.0" />
+              <point x="6929.706180968564" y="570.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="OrmAdapter::ToAdapter">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::Validations">
+              <point x="-59.87878787878799" y="-15.0" />
+              <point x="4266.327393089776" y="570.0" />
+              <point x="623.8584395355442" y="570.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::AutosaveAssociation" target="ActiveSupport::Concern">
+              <point x="64.0" y="-15.0" />
+              <point x="5184.706180968564" y="375.0" />
+              <point x="5236.706180968564" y="375.0" />
+              <point x="5236.706180968564" y="160.0" />
+              <point x="3392.450106202211" y="160.0" />
+              <point x="39.433333333333394" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::AttributeMethods::BeforeTypeCast" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="6929.706180968564" y="100.0" />
+              <point x="3428.8501062022106" y="100.0" />
+              <point x="75.83333333333303" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::Associations">
+              <point x="69.09090909090901" y="-15.0" />
+              <point x="4395.297090059473" y="590.0" />
+              <point x="7446.706180968564" y="590.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::Serializers::Xml" target="ActiveModel::Serialization">
+              <point x="-53.75" y="-15.0" />
+              <point x="1511.8706386292865" y="300.0" />
+              <point x="1535.7061809685638" y="300.0" />
+              <point x="49.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::AutosaveAssociation">
+              <point x="18.424242424242493" y="-15.0" />
+              <point x="4344.630423392807" y="480.0" />
+              <point x="5120.706180968564" y="480.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Transactions" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="5800.706180968564" y="140.0" />
+              <point x="3404.583439535544" y="140.0" />
+              <point x="51.566666666666606" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Validations" target="ActiveModel::Validations">
+              <point x="-48.5" y="-15.0" />
+              <point x="575.3584395355442" y="375.0" />
+              <point x="571.3584395355442" y="375.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveSupport::Benchmarkable">
+              <point x="9.21212121212102" y="-15.0" />
+              <point x="4335.418302180685" y="460.0" />
+              <point x="4600.456180968564" y="460.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveSupport::DescendantsTracker">
+              <point x="-73.69696969696952" y="-15.0" />
+              <point x="4252.509211271595" y="600.0" />
+              <point x="0.0" y="600.0" />
+              <point x="0.0" y="220.0" />
+              <point x="73.85843953554377" y="220.0" />
+              <point x="-86.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::NestedAttributes">
+              <point x="-36.848484848484986" y="-15.0" />
+              <point x="4289.357696120079" y="520.0" />
+              <point x="2315.6206386292865" y="520.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Timestamp" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="6351.206180968564" y="120.0" />
+              <point x="3416.7167728688773" y="120.0" />
+              <point x="63.69999999999982" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Serialization" target="ActiveModel::Serializers::Xml">
+              <point x="0.0" y="-15.0" />
+              <point x="1532.3917728688775" y="375.0" />
+              <point x="1565.6206386292865" y="375.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Associations" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="7446.706180968564" y="80.0" />
+              <point x="3440.9834395355438" y="80.0" />
+              <point x="87.96666666666624" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::Observing" target="ActiveSupport::DescendantsTracker">
+              <point x="-45.75" y="-15.0" />
+              <point x="150.63951430189718" y="220.0" />
+              <point x="159.85843953554422" y="220.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::AttributeMethods::TimeZoneConversion">
+              <point x="4.60606060606051" y="-15.0" />
+              <point x="4330.812241574625" y="450.0" />
+              <point x="4428.206180968564" y="450.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Callbacks" target="ActiveSupport::Concern">
+              <point x="61.66666666666697" y="-15.0" />
+              <point x="1105.0584395355445" y="375.0" />
+              <point x="1205.6206386292865" y="375.0" />
+              <point x="1205.6206386292865" y="130.0" />
+              <point x="3295.3834395355443" y="130.0" />
+              <point x="-57.63333333333321" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::NestedAttributes" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="2315.6206386292865" y="190.0" />
+              <point x="3331.783439535544" y="190.0" />
+              <point x="-21.233333333333576" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::MassAssignmentSecurity" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="2589.1206386292865" y="200.0" />
+              <point x="3337.8501062022106" y="200.0" />
+              <point x="-15.16666666666697" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::AttributeMethods::Write" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="4772.706180968564" y="170.0" />
+              <point x="3386.3834395355443" y="170.0" />
+              <point x="33.36666666666679" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::Translation" target="ActiveModel::Naming">
+              <point x="0.0" y="-15.0" />
+              <point x="403.8895143018972" y="70.0" />
+              <point x="413.1084395355442" y="70.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::SecurePassword" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="3124.6206386292865" y="220.0" />
+              <point x="3349.9834395355438" y="220.0" />
+              <point x="-3.0333333333337578" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Callbacks" target="ActiveModel::Callbacks">
+              <point x="-61.66666666666697" y="-15.0" />
+              <point x="981.7251062022106" y="375.0" />
+              <point x="827.1206386292865" y="375.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::Validations" target="ActiveSupport::Concern">
+              <point x="63.0" y="-15.0" />
+              <point x="634.3584395355442" y="300.0" />
+              <point x="720.3895143018972" y="300.0" />
+              <point x="720.3895143018972" y="100.0" />
+              <point x="3277.1834395355445" y="100.0" />
+              <point x="-75.83333333333303" y="15.0" />
+            </edge>
+            <edge source="ActiveSupport::Callbacks" target="ActiveSupport::Concern">
+              <point x="47.75" y="-15.0" />
+              <point x="662.1395143018972" y="90.0" />
+              <point x="3271.116772868878" y="90.0" />
+              <point x="-81.89999999999964" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::Timestamp">
+              <point x="46.060606060606005" y="-15.0" />
+              <point x="4372.26678702917" y="540.0" />
+              <point x="6351.206180968564" y="540.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::Validations" target="ActiveSupport::Callbacks">
+              <point x="0.0" y="-15.0" />
+              <point x="571.3584395355442" y="300.0" />
+              <point x="566.6395143018972" y="300.0" />
+              <point x="-47.75" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::Locking::Pessimistic">
+              <point x="-18.424242424242493" y="-15.0" />
+              <point x="4307.781938544322" y="480.0" />
+              <point x="3261.6206386292865" y="480.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::AttributeMethods::PrimaryKey">
+              <point x="41.454545454545496" y="-15.0" />
+              <point x="4367.66072642311" y="530.0" />
+              <point x="6078.706180968564" y="530.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Callbacks" target="ActiveModel::Validations::Callbacks">
+              <point x="0.0" y="-15.0" />
+              <point x="1043.3917728688775" y="375.0" />
+              <point x="1066.1206386292865" y="375.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Reflection" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="1787.6206386292865" y="170.0" />
+              <point x="3319.6501062022107" y="170.0" />
+              <point x="-33.36666666666679" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::AttributeMethods::Query" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="2040.6206386292865" y="180.0" />
+              <point x="3325.7167728688773" y="180.0" />
+              <point x="-27.300000000000182" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::AttributeMethods" target="ActiveModel::AttributeMethods">
+              <point x="0.0" y="-15.0" />
+              <point x="57.25" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::Dirty" target="ActiveSupport::Concern">
+              <point x="-37.5" y="-15.0" />
+              <point x="3549.870638629286" y="210.0" />
+              <point x="3362.116772868878" y="210.0" />
+              <point x="9.100000000000364" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::AttributeMethods::Read" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="6604.206180968564" y="110.0" />
+              <point x="3422.783439535544" y="110.0" />
+              <point x="69.76666666666642" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::CounterCache">
+              <point x="73.69696969696952" y="-15.0" />
+              <point x="4399.903150665534" y="600.0" />
+              <point x="7563.206180968564" y="600.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::QueryCache::ClassMethods">
+              <point x="23.030303030303003" y="-15.0" />
+              <point x="4349.236483998867" y="490.0" />
+              <point x="5416.206180968564" y="490.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::Aggregations">
+              <point x="27.636363636363512" y="-15.0" />
+              <point x="4353.842544604928" y="500.0" />
+              <point x="5574.206180968564" y="500.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveModel::Naming">
+              <point x="-64.4848484848485" y="-15.0" />
+              <point x="4261.721332483716" y="580.0" />
+              <point x="298.3895143018972" y="580.0" />
+              <point x="298.3895143018972" y="70.0" />
+              <point x="357.1084395355442" y="70.0" />
+              <point x="-56.0" y="15.0" />
+            </edge>
+            <edge source="ActiveSupport::Callbacks" target="ActiveSupport::DescendantsTracker">
+              <point x="-47.75" y="-15.0" />
+              <point x="566.6395143018972" y="60.0" />
+              <point x="245.85843953554422" y="60.0" />
+              <point x="86.0" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::AttributeMethods::PrimaryKey" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="6078.706180968564" y="130.0" />
+              <point x="3410.6501062022107" y="130.0" />
+              <point x="57.63333333333321" y="15.0" />
+            </edge>
+            <edge source="ActiveRecord::Base" target="ActiveRecord::Transactions">
+              <point x="32.24242424242402" y="-15.0" />
+              <point x="4358.448605210988" y="510.0" />
+              <point x="5800.706180968564" y="510.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::AttributeMethods" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.0" />
+              <point x="3822.620638629286" y="200.0" />
+              <point x="3368.1834395355445" y="200.0" />
+              <point x="15.16666666666697" y="15.0" />
+            </edge>
+            <edge source="ActiveModel::Observing" target="ActiveSupport::Concern">
+              <point x="45.75" y="-15.0" />
+              <point x="242.13951430189718" y="80.0" />
+              <point x="3265.0501062022113" y="80.0" />
+              <point x="-87.96666666666624" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.2001300390117035" x="1189.0" y="-972.0" />
+          <SelectedNodes>
+            <node>Project</node>
+          </SelectedNodes>
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="8" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/openafter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="200" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/creating_tickets.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="30" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/link_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/permission_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="109" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="168" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/deleting_tickets.feature">
+    <entry file="file://$PROJECT_DIR$/app/models/ability.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="61" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+        <state line="5" column="10" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/editing_tickets.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="61" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
+        <state line="11" column="74" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/creating_tickets.feature">
+    <entry file="file://$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="86" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+        <state line="41" column="84" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/base_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/base/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/viewing_tickets.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="110" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/viewing_projects.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="45" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/project.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="5" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/hidden_links.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="193" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/registrations_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/confirmation.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/signing_up.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="180" selection-start="421" selection-end="421" vertical-scroll-proportion="0.23404256">
+        <state line="70" column="48" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.80743694">
           <folding />
         </state>
       </provider>

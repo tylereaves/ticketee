@@ -51,4 +51,10 @@ group :test do
   gem 'email_spec'
 end
 
+group :development do
+  gem 'rails-dev-boost', :git => 'git://github.com/thedarkone/rails-dev-boost.git', :require => 'rails_development_boost'
+end
+
+
 gem 'devise', '~> 1.4.3'
+gem 'cancan'
