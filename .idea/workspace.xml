@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c6db57c-a5ed-4995-a461-663804243154" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/ability.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factories/ticket_factory.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ticketee.iml" afterPath="$PROJECT_DIR$/.idea/ticketee.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/tc2.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tickets_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/project.rb" afterPath="$PROJECT_DIR$/app/models/project.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/projects/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/creating_tickets.feature" afterPath="$PROJECT_DIR$/features/creating_tickets.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/editing_tickets.feature" afterPath="$PROJECT_DIR$/features/editing_tickets.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/openafter.rb" afterPath="$PROJECT_DIR$/features/support/openafter.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/deleting_tickets.feature" afterPath="$PROJECT_DIR$/features/deleting_tickets.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb" />
     </list>
     <ignored path="ticketee.iws" />
@@ -38,19 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tickets_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tickets_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="48" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.80743694">
+            <state line="76" column="40" selection-start="2059" selection-end="2059" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/projects/edit.html.haml">
+      <file leaf-file-name="deleting_tickets.feature" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/deleting_tickets.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="8" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+            <state line="21" column="149" selection-start="916" selection-end="916" vertical-scroll-proportion="0.44621515">
               <folding />
             </state>
           </provider>
@@ -86,7 +75,7 @@
       <file leaf-file-name="tickets_controller_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="84" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.0">
+            <state line="43" column="136" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/registrations_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/users/confirmation.html.haml" />
         <option value="$PROJECT_DIR$/factories/ticket_factory.rb" />
@@ -155,9 +143,10 @@
         <option value="$PROJECT_DIR$/app/controllers/tc2.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/editing_tickets.feature" />
-        <option value="$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/projects/_form.html.haml" />
+        <option value="$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
+        <option value="$PROJECT_DIR$/features/deleting_tickets.feature" />
       </list>
     </option>
   </component>
@@ -1073,11 +1062,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/factories/ticket_factory.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="23" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" />
@@ -1733,14 +1717,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="84" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.0">
+        <state line="43" column="136" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="48" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.80743694">
+        <state line="76" column="40" selection-start="2059" selection-end="2059" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/deleting_tickets.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="149" selection-start="916" selection-end="916" vertical-scroll-proportion="0.44621515">
           <folding />
         </state>
       </provider>
